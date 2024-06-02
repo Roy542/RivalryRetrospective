@@ -1,0 +1,20 @@
+How to identify some objects in a typical map
+
+1. Situation:
+
+When developing the Rivalry turn based games in a map, the map is the main gaming board. Inside the map there are a lot of subdivisions or regions of a country.
+
+2. Target and thinking
+
+Target: 
+When a player touches on an area for selecting a specific subdivisions of a country's map, the game can react to the operation by executing some events like poping up some information about the subdivision.
+
+Thinking: 
+Assuming you reading the article are a game developer, you may know that a game engine is the tool glueing some materials of image and other types. So ideally when u have a strong library, for example having each subdivision image ready of the country, and in a layer definitely you can combine every subdivision as a map so that assigning an event to each subdivision. 
+However my project based on MVP principle, or minimum viable product, is trying to implement it without splitting a whole map into pieces as it may take much effort. So needing a interim solution which is effective and simple to the issue. By some investigation in the internet, the frequent term is the circle identification, which treats each subdivision as a circle(of course it can be any easy shape) and by calculating the distance from the point by a player to the center of the subdivision circle.
+
+3. Solution introdution
+Preparation:
+
+
+4. Sulotion details
